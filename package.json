@@ -1,0 +1,25 @@
+{
+  "name": "md-blog",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "dompurify": "^2.3.8",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jsdom": "^20.0.0",
+    "marked": "^4.0.17",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.2",
+    "slugify": "^1.6.5"
+  }
+}
